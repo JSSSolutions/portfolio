@@ -1,0 +1,33 @@
+body
+{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+}
+
+a :hover
+{
+	color: lightgreen;
+}
+
+p
+{
+	color: gold;
+}
+
+.categories, .desktops, .games
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.game_link, .gui_link
+{
+	text-align: center;
+}
